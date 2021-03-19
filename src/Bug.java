@@ -6,6 +6,7 @@ public class Bug {
 	private BugType bugtype;
 	private STATUS status;
 	private Priority priority;
+	private String i;
 	Bug bug = new Bug();
 	public String getBugID() {
 		return bugID;
